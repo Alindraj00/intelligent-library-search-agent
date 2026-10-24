@@ -370,7 +370,9 @@ def inject_css():
     <style>
       :root { --bg:#06121b; --panel:#0c1b25; --panel2:#101f2a; --line:#263b48; --muted:#9aadb8; --orange:#ff7a18; --orange2:#ff9a4a; }
       .stApp { background: radial-gradient(circle at 85% 10%, #10232f 0, var(--bg) 32%); color:#f3f5f6; }
-      .block-container { max-width:1380px; padding-top:1.3rem; padding-bottom:3rem; }
+      .block-container { max-width:1380px; padding-top:5.5rem !important; padding-bottom:3rem; }
+      [data-testid="stAppViewContainer"] .main .block-container { padding-top:5.5rem !important; }
+      [data-testid="stHeader"] { z-index:100; }
       h1,h2,h3,h4 { font-family:Arial,sans-serif !important; letter-spacing:-.4px; }
       .hero { min-height:340px; border:1px solid var(--line); border-radius:28px; overflow:hidden; position:relative; background:linear-gradient(100deg,rgba(5,16,24,.98) 0%,rgba(5,16,24,.92) 43%,rgba(5,16,24,.55) 100%), radial-gradient(circle at 80% 35%,#1c3c4c 0,#07131d 55%); padding:46px; box-shadow:0 22px 60px rgba(0,0,0,.3); }
       .hero:after { content:'✦  ✦  ✦'; position:absolute; right:45px; top:38px; color:#ff7a18; opacity:.45; font-size:28px; letter-spacing:18px; }
