@@ -1,0 +1,8 @@
+1. Extract the ZIP.
+2. Open Anaconda Prompt.
+3. cd into the extracted Intelligent_Library_Search_Agent_Enhanced folder.
+4. Run: python -m pip install -r requirements.txt
+5. Run: python -m streamlit run app.py
+6. Open http://localhost:8501
+
+You can also double-click run_project.bat on Windows.

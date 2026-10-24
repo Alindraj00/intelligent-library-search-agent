@@ -1,0 +1,15 @@
+GITHUB UPLOAD GUIDE
+
+1. Go to https://github.com and sign in.
+2. Click the + button -> New repository.
+3. Repository name:
+   intelligent-library-search-agent
+4. Choose Public if you want your faculty to open the project without signing in.
+5. Click Create repository.
+6. On the new repository page choose "uploading an existing file".
+7. Upload all files and folders from this project.
+8. Click "Commit changes".
+9. Your shareable project URL will be:
+   https://github.com/YOUR-USERNAME/intelligent-library-search-agent
+
+For a live web demo, use Streamlit Community Cloud after the GitHub repository is public.

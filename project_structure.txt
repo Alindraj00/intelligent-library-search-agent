@@ -1,0 +1,12 @@
+Intelligent_Library_Search_Agent/
+|
+|-- app.py                    # Complete Streamlit application
+|-- requirements.txt          # Python dependency
+|-- README.md                 # Setup, concepts and demo guide
+|-- project_structure.txt     # File structure
+|-- docs/
+|   |-- project_report.md     # Submission-ready report
+|   |-- viva_questions.md     # Viva questions and answers
+|   `-- presentation_content.md # Slide-by-slide PPT content
+`-- assets/
+    `-- README.txt             # Optional location for screenshots/assets
